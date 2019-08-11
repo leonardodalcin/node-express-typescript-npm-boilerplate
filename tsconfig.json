@@ -1,6 +1,12 @@
 {
   "extends": "tsconfig-base",
-  "files": [],
+  "include": [
+    "src/**/*"
+  ],
+  "compilerOptions": {
+    "rootDir": ".",
+    "outDir": "dist"
+  },
   "references": [
     { "path": "repositories" },
     { "path": "server" },

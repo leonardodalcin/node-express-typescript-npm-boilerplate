@@ -1,5 +1,5 @@
 export class Customer {
     main() {
-        console.log(`test`);
+        console.log(`test`)
     }
 }

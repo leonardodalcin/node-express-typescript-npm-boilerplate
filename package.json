@@ -1,7 +1,8 @@
 {
   "name": "warren-hot-reload",
   "version": "1.0.0",
-  "main": "source/main.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "license": "MIT",
   "private": true,
   "workspaces": [
@@ -16,22 +17,20 @@
     "eslint-plugin-jest": "^22.15.0",
     "eslint-plugin-node": "^9.1.0",
     "eslint-plugin-prettier": "^3.1.0",
-    "install": "^0.13.0",
     "jest": "^24.8.0",
     "lerna": "^3.16.4",
     "prettier": "^1.18.2",
     "typescript": "^3.5.3"
   },
   "scripts": {
-    "develop": "node ./build/main.js",
-    "eslint": "eslint",
-    "build": "tsc -b packages/repositories packages/server",
+    "start": "node ./dist/index.js",
     "test": "jest",
-    "lint": "tsc && eslint '*/**/*.{js,ts}' --ignore-path .gitignore --cache --fix ",
-    "lint-faster": "tsc --noEmit && eslint '*/**/*.{js,ts}' --ignore-path .gitignore --quiet",
+
+    "lint": "eslint '*/**/*.{js,ts}' --ignore-path .gitignore --cache --fix",
+    "build": "tsc -b packages/repositories packages/server packages/validators",
+
     "publish-warren-packages": "lerna publish",
     "list-warren-packages": "yarn workspaces info"
-
   },
   "dependencies": {
     "@types/jest": "^24.0.17",

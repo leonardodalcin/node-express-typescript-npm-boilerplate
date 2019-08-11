@@ -149,9 +149,13 @@
         "version": "b209a815904a485328677714ef8c4ddd2dcf4040154fa204d25cbf31cd4ff0f3",
         "signature": "b209a815904a485328677714ef8c4ddd2dcf4040154fa204d25cbf31cd4ff0f3"
       },
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/packages/repositories/dist/index.d.ts": {
+        "version": "87540397bd7b75782c7ebddda53455c167fcd310b1b762b3a8d05694f975297b",
+        "signature": "87540397bd7b75782c7ebddda53455c167fcd310b1b762b3a8d05694f975297b"
+      },
       "/users/leonardodalcin/webstormprojects/warren-hot-reload/packages/repositories/src/index.ts": {
-        "version": "8472ef861e97f23fd4ff65f07a2e243da27179974914ef1f63b4aa93539d5521",
-        "signature": "f5d23a594d7ad6b97974b1e2f729c806a3a2e79bfdee8c28ce5a1264ea745098"
+        "version": "be86c841b714cd0151b8d8a9cb6ae19e0acecfbc2b66eec0cdfa9e6a4133fccb",
+        "signature": "7d6cd31d20d94c9e0ee07de0207c85ed3e238ab2d93aeb833e70e89f5e0c2766"
       },
       "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@babel/types/lib/index.d.ts": {
         "version": "bc12492fa90cd2ad3f73c10efa597503dbf59ebac0e3c9728cc10adaad6b0b87",
@@ -447,7 +451,7 @@
       "strict": true,
       "composite": true,
       "rootDir": "/Users/leonardodalcin/WebstormProjects/warren-hot-reload/packages/repositories/src",
-      "outDir": "/Users/leonardodalcin/WebstormProjects/warren-hot-reload/packages/repositories/dist",
+      "outDir": "/Users/leonardodalcin/WebstormProjects/warren-hot-reload/dist",
       "configFilePath": "/Users/leonardodalcin/WebstormProjects/warren-hot-reload/packages/repositories/tsconfig.json"
     },
     "referencedMap": {
@@ -596,6 +600,10 @@
         "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/typescript/lib/lib.esnext.full.d.ts": [
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/packages/repositories/dist/index.d.ts": [
         "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
         "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -1032,6 +1040,14 @@
         "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
         "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/typescript/lib/lib.es2019.d.ts": [
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/typescript/lib/lib.esnext.d.ts": [
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/typescript/lib/lib.dom.d.ts": [
         "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
         "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
@@ -1124,11 +1140,35 @@
         "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
         "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/typescript/lib/lib.es2019.array.d.ts": [
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/typescript/lib/lib.es2019.object.d.ts": [
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/typescript/lib/lib.es2019.string.d.ts": [
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/typescript/lib/lib.es2019.symbol.d.ts": [
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/typescript/lib/lib.esnext.intl.d.ts": [
         "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
         "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/typescript/lib/lib.esnext.bigint.d.ts": [
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/typescript/lib/lib.esnext.full.d.ts": [
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/packages/repositories/dist/index.d.ts": [
         "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
         "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -1538,34 +1578,6 @@
       "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/yargs/index.d.ts": [
         "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
         "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/typescript/lib/lib.es2019.d.ts": [
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/typescript/lib/lib.esnext.d.ts": [
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/typescript/lib/lib.es2019.array.d.ts": [
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/typescript/lib/lib.es2019.object.d.ts": [
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/typescript/lib/lib.es2019.string.d.ts": [
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/typescript/lib/lib.es2019.symbol.d.ts": [
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/typescript/lib/lib.esnext.full.d.ts": [
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
@@ -1606,6 +1618,7 @@
       "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/typescript/lib/lib.esnext.intl.d.ts",
       "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/typescript/lib/lib.esnext.bigint.d.ts",
       "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/typescript/lib/lib.esnext.full.d.ts",
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/packages/repositories/dist/index.d.ts",
       "/users/leonardodalcin/webstormprojects/warren-hot-reload/packages/repositories/src/index.ts",
       "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@babel/types/lib/index.d.ts",
       "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/babel__generator/index.d.ts",
