@@ -1,5 +1,5 @@
 
-/built/
-/node_modules/
+**/node_modules/
+packages/*/dist
 /yarn-error.log
 /.eslintcache
