@@ -1,0 +1,9 @@
+{
+  "extends": "../../tsconfig-base",
+  "declaration": true,
+  "outDir": "dist",
+  "baseUrl": "./",
+  "exclude": [
+    "node_modules"
+  ]
+}

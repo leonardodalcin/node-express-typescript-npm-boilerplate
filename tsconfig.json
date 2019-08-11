@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "pretty": true,
+    "target": "esnext",
+    "rootDir": ".",
+
+    "sourceMap": true,
+    "noEmitOnError": true,
+
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictPropertyInitialization": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+
+    "alwaysStrict": true,
+    "preserveConstEnums": true,
+    "newLine": "lf",
+
+    "module": "commonjs",
+    "outDir": "built",
+    "types": [
+      "node",
+      "jest"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@business-rules/*": ["source/business-rules/*"],
+      "@repositories/*": ["source/repositories/*"],
+      "@server/*": ["source/server/*"],
+      "@services/*": ["source/services/*"],
+      "@use-cases/*": ["source/use-cases/*"]
+    }
+  },
+  "include": [
+    "source/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
