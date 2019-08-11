@@ -26,11 +26,7 @@
     ],
     "baseUrl": ".",
     "paths": {
-      "@business-rules/*": ["source/business-rules/*"],
-      "@repositories/*": ["source/repositories/*"],
-      "@server/*": ["source/server/*"],
-      "@services/*": ["source/services/*"],
-      "@use-cases/*": ["source/use-cases/*"]
+      "@business-rules/*": ["source/business-rules/*"]
     }
   },
   "include": [

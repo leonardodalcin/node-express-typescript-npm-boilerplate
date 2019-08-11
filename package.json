@@ -31,6 +31,7 @@
     "lint-faster": "tsc --noEmit && eslint '*/**/*.{js,ts}' --ignore-path .gitignore --quiet"
   },
   "dependencies": {
+    "@warreninc/validators": "^0.0.0",
     "@types/jest": "^24.0.17",
     "@types/node": "^12.7.1"
   }
