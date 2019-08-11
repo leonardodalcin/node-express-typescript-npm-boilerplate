@@ -25,14 +25,19 @@
   "scripts": {
     "develop": "node ./build/main.js",
     "eslint": "eslint",
-    "build-ts": "tsc",
+    "build": "tsc -b packages/repositories packages/server",
     "test": "jest",
     "lint": "tsc && eslint '*/**/*.{js,ts}' --ignore-path .gitignore --cache --fix ",
-    "lint-faster": "tsc --noEmit && eslint '*/**/*.{js,ts}' --ignore-path .gitignore --quiet"
+    "lint-faster": "tsc --noEmit && eslint '*/**/*.{js,ts}' --ignore-path .gitignore --quiet",
+    "publish-warren-packages": "lerna publish",
+    "list-warren-packages": "yarn workspaces info"
+
   },
   "dependencies": {
     "@types/jest": "^24.0.17",
     "@types/node": "^12.7.1",
+    "@warreninc/repositories": "^0.0.4",
+    "@warreninc/server": "^0.0.4",
     "@warreninc/validators": "^0.0.3"
   }
 }

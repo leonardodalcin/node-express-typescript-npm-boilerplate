@@ -3,8 +3,5 @@
   "version": "0.0.4",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "repository": "https://github.com/leonardodalcin/node-express-typescript-npm-boilerplate/tree/master/packages/repositories",
-  "scripts": {
-    "build": "tsc"
-  }
+  "repository": "https://github.com/leonardodalcin/node-express-typescript-npm-boilerplate/tree/master/packages/repositories"
 }

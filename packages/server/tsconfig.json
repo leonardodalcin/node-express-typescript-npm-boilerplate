@@ -1,9 +1,13 @@
 {
-  "extends": "../../tsconfig-base",
-  "declaration": true,
-  "outDir": "dist",
-  "baseUrl": "./",
-  "exclude": [
-    "node_modules"
+  "extends": "../../tsconfig-base.json",
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "rootDir": "src",
+    "outDir": "dist",
+    "types": ["@types/express"]
+  },
+  "references": [
+    { "path": "../repositories" }
   ]
 }

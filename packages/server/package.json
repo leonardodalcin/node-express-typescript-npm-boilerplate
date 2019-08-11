@@ -4,7 +4,9 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "repository": "https://github.com/leonardodalcin/node-express-typescript-npm-boilerplate/tree/master/packages/server",
-  "scripts": {
-    "build": "tsc"
+  "dependencies": {
+    "@types/express": "^4.17.0",
+    "@warreninc/repositories": "0.0.4",
+    "express": "^4.17.1"
   }
 }
