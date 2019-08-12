@@ -1,0 +1,14 @@
+{
+  "name": "@warreninc/logger",
+  "version": "0.0.4",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "https://github.com/leonardodalcin/node-express-typescript-npm-boilerplate/tree/master/packages/logger",
+  "dependencies": {
+    "@types/debug": "^4.1.5",
+    "@types/git-rev-sync": "^1.12.0",
+    "colors": "^1.3.3",
+    "debug": "^4.1.1",
+    "git-rev-sync": "^1.12.0"
+  }
+}

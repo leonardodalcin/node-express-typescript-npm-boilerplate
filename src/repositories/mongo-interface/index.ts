@@ -1,8 +1,7 @@
-import { RepositoryItemException } from '@repositories/password-reset-token'
+import {MongoService} from '../../services/mongo'
 
-export class BaseRepository<T> {
-  /** Needed as a interface checker between BaseRepository and its childs*/
-  protected writeItemConstructor: (obj: any) => T
+export class MongoInterface<T> {
+  /** Needed as a interface checker between MongoInterface and its childs*/
   protected readItemConstructor: (obj: any) => T
   // @ts-ignore
   private mongooseModel: Model<T>
@@ -18,14 +17,6 @@ export class BaseRepository<T> {
     
     // @ts-ignore
     this.mongooseModel = mongoose.model(mongooseModelName)
-    this.writeItemConstructor = (obj: any) => {
-      // @ts-ignore
-      if (new this.mongooseModel(obj).validateSync() !== undefined) {
-        throw new RepositoryItemException(obj)
-      } else {
-        return new this.mongooseModel(obj)
-      }
-    }
     this.readItemConstructor = readItemConstructor
   }
   

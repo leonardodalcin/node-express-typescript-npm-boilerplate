@@ -27,15 +27,17 @@
     "prestart": "yarn build",
     "test": "jest",
     "lint": "eslint '*/**/*.{js,ts}' --ignore-path .gitignore --cache --fix",
-    "build": "tsc -b src src/repositories packages/server packages/validators",
+    "build": "tsc -b src src/repositories packages/server packages/logger packages/validators",
     "publish-warren-packages": "lerna publish",
     "list-warren-packages": "yarn workspaces info"
   },
   "dependencies": {
     "@types/jest": "^24.0.17",
+    "@types/mongodb": "^3.1.32",
     "@types/node": "^12.7.1",
     "@warreninc/repositories": "^0.0.4",
     "@warreninc/server": "^0.0.4",
-    "@warreninc/validators": "^0.0.3"
+    "@warreninc/validators": "^0.0.3",
+    "mongodb": "^3.3.0-beta2"
   }
 }
