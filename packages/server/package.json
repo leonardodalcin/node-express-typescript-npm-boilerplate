@@ -1,12 +1,12 @@
 {
   "name": "@warreninc/server",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "repository": "https://github.com/leonardodalcin/node-express-typescript-npm-boilerplate/tree/master/packages/server",
   "dependencies": {
     "@types/express": "^4.17.0",
-    "@warreninc/services": "0.0.4",
+    "@warreninc/services": "^0.0.5",
     "express": "^4.17.1"
   }
 }
