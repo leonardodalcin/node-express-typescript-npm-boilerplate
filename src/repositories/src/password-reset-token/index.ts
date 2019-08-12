@@ -1,5 +1,10 @@
-import {BaseRepository} from 'repositories/src/base'
+import { BaseRepository } from '@repositories/base'
+import { PasswordResetToken } from '@business-models/password-reset-token'
 
+import { Debug } from '@helpers/debug'
+const debug = new Debug('PasswordResetTokenRepository')
+
+/** now, we have all code implementation from BaseRepository */
 export class PasswordResetTokenRepository extends BaseRepository<PasswordResetToken> {
   constructor() {
     /** this repository item constructor function */

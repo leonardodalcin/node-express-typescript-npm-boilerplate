@@ -3,7 +3,7 @@
   "files": [],
   "references": [
     { "path": "src" },
-    { "path": "/packages/repositories" },
+    { "path": "/src/repositories"},
     { "path": "/packages/server" },
     { "path": "/packages/validators" }
   ]

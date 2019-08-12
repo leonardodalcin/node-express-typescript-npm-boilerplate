@@ -23,14 +23,11 @@
     "typescript": "^3.5.3"
   },
   "scripts": {
-    "start": "node ./dist/index.js",
-    "prestart": "yarn build && yarn lint",
+    "start": "concurrently 'yarn build -w' 'node ./dist/index.js'",
+    "prestart": "yarn build",
     "test": "jest",
-
-
     "lint": "eslint '*/**/*.{js,ts}' --ignore-path .gitignore --cache --fix",
-    "build": "tsc -b src packages/repositories packages/server packages/validators",
-
+    "build": "tsc -b src src/repositories packages/server packages/validators",
     "publish-warren-packages": "lerna publish",
     "list-warren-packages": "yarn workspaces info"
   },
