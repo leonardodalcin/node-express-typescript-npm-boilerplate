@@ -1,15 +1,10 @@
 {
   "extends": "tsconfig-base",
-  "include": [
-    "src/**/*"
-  ],
-  "compilerOptions": {
-    "rootDir": ".",
-    "outDir": "dist"
-  },
+  "files": [],
   "references": [
-    { "path": "repositories" },
-    { "path": "server" },
-    { "path": "validators" }
+    { "path": "src" },
+    { "path": "/packages/repositories" },
+    { "path": "/packages/server" },
+    { "path": "/packages/validators" }
   ]
 }

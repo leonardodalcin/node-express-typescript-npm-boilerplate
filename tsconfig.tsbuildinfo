@@ -153,7 +153,7 @@
         "version": "87540397bd7b75782c7ebddda53455c167fcd310b1b762b3a8d05694f975297b",
         "signature": "87540397bd7b75782c7ebddda53455c167fcd310b1b762b3a8d05694f975297b"
       },
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/packages/repositories/src/index.ts": {
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/packages/repositories/src/global.ts": {
         "version": "be86c841b714cd0151b8d8a9cb6ae19e0acecfbc2b66eec0cdfa9e6a4133fccb",
         "signature": "7d6cd31d20d94c9e0ee07de0207c85ed3e238ab2d93aeb833e70e89f5e0c2766"
       },
@@ -607,7 +607,7 @@
         "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
         "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/packages/repositories/src/index.ts": [
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/packages/repositories/src/global.ts": [
         "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
         "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -1176,27 +1176,6 @@
         "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
         "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/babel__generator/index.d.ts": [
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@babel/types/lib/index.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/babel__traverse/index.d.ts": [
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@babel/types/lib/index.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@babel/parser/typings/babel-parser.d.ts": [
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@babel/types/lib/index.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/babel__template/index.d.ts": [
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@babel/parser/typings/babel-parser.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@babel/types/lib/index.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
       "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/babel__core/index.d.ts": [
         "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/babel__generator/index.d.ts",
         "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/babel__traverse/index.d.ts",
@@ -1206,216 +1185,32 @@
         "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
         "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/babel__template/index.d.ts": [
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@babel/parser/typings/babel-parser.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@babel/types/lib/index.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@babel/parser/typings/babel-parser.d.ts": [
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@babel/types/lib/index.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/babel__traverse/index.d.ts": [
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@babel/types/lib/index.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/babel__generator/index.d.ts": [
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@babel/types/lib/index.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/globals.d.ts": [
         "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
         "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/assert.d.ts": [
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/async_hooks.d.ts": [
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/buffer.d.ts": [
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/events/index.d.ts": [
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/child_process.d.ts": [
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/events.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/net.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/stream.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/cluster.d.ts": [
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/child_process.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/events.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/net.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/console.d.ts": [
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/constants.d.ts": [
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/crypto.d.ts": [
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/stream.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/dgram.d.ts": [
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/net.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/dns.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/events.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/dns.d.ts": [
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/domain.d.ts": [
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/events.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/events.d.ts": [
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/fs.d.ts": [
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/stream.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/events.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/url.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/http.d.ts": [
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/events.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/stream.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/url.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/net.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/http2.d.ts": [
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/events.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/fs.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/net.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/stream.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/tls.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/url.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/http.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/https.d.ts": [
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/tls.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/events.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/http.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/url.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/inspector.d.ts": [
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/events.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/module.d.ts": [
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/net.d.ts": [
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/stream.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/events.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/dns.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/os.d.ts": [
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/path.d.ts": [
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/perf_hooks.d.ts": [
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/async_hooks.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/process.d.ts": [
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/punycode.d.ts": [
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/querystring.d.ts": [
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/readline.d.ts": [
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/events.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/stream.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/repl.d.ts": [
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/readline.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/vm.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/stream.d.ts": [
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/events.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/string_decoder.d.ts": [
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/timers.d.ts": [
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/tls.d.ts": [
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/crypto.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/dns.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/net.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/stream.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/trace_events.d.ts": [
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/tty.d.ts": [
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/net.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/url.d.ts": [
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/querystring.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts": [
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/v8.d.ts": [
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/stream.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/vm.d.ts": [
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/worker_threads.d.ts": [
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/vm.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/events.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/stream.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/zlib.d.ts": [
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/stream.d.ts",
         "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
         "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -1462,38 +1257,16 @@
         "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/zlib.d.ts",
         "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts": [
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts"
-      ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/globals.d.ts": [
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/globals.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
       "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/index.d.ts": [
         "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/base.d.ts",
         "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts",
         "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/globals.d.ts",
         "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts"
       ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/connect/index.d.ts": [
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/http.d.ts",
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/glob/index.d.ts": [
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/events.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/minimatch/index.d.ts",
         "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/index.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/body-parser/index.d.ts": [
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/connect/index.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/http.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/index.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/eslint-visitor-keys/index.d.ts": [
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/range-parser/index.d.ts": [
         "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
         "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -1505,7 +1278,10 @@
         "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
         "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/mime/index.d.ts": [
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/express/index.d.ts": [
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/body-parser/index.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/serve-static/index.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/express-serve-static-core/index.d.ts",
         "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
         "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -1515,49 +1291,229 @@
         "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
         "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/express/index.d.ts": [
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/body-parser/index.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/serve-static/index.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/express-serve-static-core/index.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/minimatch/index.d.ts": [
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/glob/index.d.ts": [
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/events.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/minimatch/index.d.ts",
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/body-parser/index.d.ts": [
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/connect/index.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/http.d.ts",
         "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/index.d.ts",
         "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
         "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/istanbul-lib-coverage/index.d.ts": [
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/connect/index.d.ts": [
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/http.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/index.d.ts",
         "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
         "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/istanbul-lib-report/index.d.ts": [
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/istanbul-lib-coverage/index.d.ts",
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/async_hooks.d.ts": [
         "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
         "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/istanbul-reports/index.d.ts": [
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/istanbul-lib-report/index.d.ts",
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/istanbul-lib-coverage/index.d.ts",
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/perf_hooks.d.ts": [
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/async_hooks.d.ts",
         "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
         "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/jest-diff/index.d.ts": [
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/buffer.d.ts": [
         "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
         "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/jest-diff/build/types.d.ts": [
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/events/index.d.ts": [
         "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
         "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/jest-diff/build/index.d.ts": [
-        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/jest-diff/build/types.d.ts",
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/child_process.d.ts": [
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/events.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/net.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/stream.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/cluster.d.ts": [
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/child_process.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/events.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/net.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/console.d.ts": [
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/constants.d.ts": [
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/crypto.d.ts": [
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/stream.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/tls.d.ts": [
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/crypto.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/dns.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/net.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/stream.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/https.d.ts": [
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/tls.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/events.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/http.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/url.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/http2.d.ts": [
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/events.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/fs.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/net.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/stream.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/tls.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/url.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/http.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/dgram.d.ts": [
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/net.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/dns.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/events.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/dns.d.ts": [
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/net.d.ts": [
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/stream.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/events.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/dns.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/tty.d.ts": [
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/net.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/http.d.ts": [
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/events.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/stream.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/url.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/net.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/domain.d.ts": [
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/events.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/events.d.ts": [
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/worker_threads.d.ts": [
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/vm.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/events.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/stream.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/stream.d.ts": [
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/events.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/zlib.d.ts": [
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/stream.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/v8.d.ts": [
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/stream.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/readline.d.ts": [
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/events.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/stream.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/repl.d.ts": [
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/readline.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/vm.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/fs.d.ts": [
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/stream.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/events.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/url.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/inspector.d.ts": [
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/events.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/module.d.ts": [
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/os.d.ts": [
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/path.d.ts": [
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/process.d.ts": [
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/punycode.d.ts": [
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/querystring.d.ts": [
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/url.d.ts": [
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/querystring.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/string_decoder.d.ts": [
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/timers.d.ts": [
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/trace_events.d.ts": [
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts": [
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/yargs/index.d.ts": [
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/stack-utils/index.d.ts": [
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/json-schema/index.d.ts": [
         "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
         "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -1567,15 +1523,59 @@
         "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
         "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/json-schema/index.d.ts": [
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/jest-diff/build/index.d.ts": [
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/jest-diff/build/types.d.ts",
         "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
         "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/stack-utils/index.d.ts": [
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/jest-diff/build/types.d.ts": [
         "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
         "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/yargs/index.d.ts": [
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/jest-diff/index.d.ts": [
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/istanbul-reports/index.d.ts": [
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/istanbul-lib-report/index.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/istanbul-lib-coverage/index.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/istanbul-lib-report/index.d.ts": [
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/istanbul-lib-coverage/index.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/istanbul-lib-coverage/index.d.ts": [
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/minimatch/index.d.ts": [
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/mime/index.d.ts": [
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/range-parser/index.d.ts": [
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/eslint-visitor-keys/index.d.ts": [
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/globals.d.ts": [
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/globals.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts": [
+        "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts"
+      ],
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/vm.d.ts": [
         "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/util.d.ts",
         "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/node/ts3.2/util.d.ts"
       ]
@@ -1619,7 +1619,7 @@
       "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/typescript/lib/lib.esnext.bigint.d.ts",
       "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/typescript/lib/lib.esnext.full.d.ts",
       "/users/leonardodalcin/webstormprojects/warren-hot-reload/packages/repositories/dist/index.d.ts",
-      "/users/leonardodalcin/webstormprojects/warren-hot-reload/packages/repositories/src/index.ts",
+      "/users/leonardodalcin/webstormprojects/warren-hot-reload/packages/repositories/src/global.ts",
       "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@babel/types/lib/index.d.ts",
       "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/babel__generator/index.d.ts",
       "/users/leonardodalcin/webstormprojects/warren-hot-reload/node_modules/@types/babel__traverse/index.d.ts",

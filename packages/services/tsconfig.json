@@ -3,7 +3,10 @@
   "compilerOptions": {
     "declaration": true,
     "declarationMap": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
     "rootDir": "src",
-    "outDir": "dist"
+    "outDir": "dist",
+    "types": ["node"]
   }
 }

@@ -5,11 +5,16 @@
     "declarationMap": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
+    "baseUrl": ".",
     "rootDir": "src",
     "outDir": "dist",
-    "types": ["@types/express"]
+    "types": ["@types/express"],
+    "paths": {
+      "@routes/*": ["src/routes/*"]
+    }
   },
+
   "references": [
-    { "path": "../repositories" }
+    { "path": "../services" }
   ]
 }
